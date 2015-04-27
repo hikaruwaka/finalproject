@@ -5,19 +5,15 @@
 
 
 body{
-	color:#00E6E6;
-	font-size: 150pt;
-	background-color:#FFF;
-	text-align: center;
-	font-family: "Lato";
-	margin: 0;
-
-
+	  color:#00E6E6;
+	  font-size: 150pt;
+	  background-color:#FFF;
+	  text-align: center;
+	  font-family: "Lato";
     min-height: 1024px;
     max-height: 1440px;
     min-width:768px;
-    max-width: 900;
-     
+    max-width: 900; 
     margin:auto 0px;
     margin-top: 150px;
 }
