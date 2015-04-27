@@ -1,5 +1,8 @@
 <!DOCTYPE html>
+<center>
 <img id="logo "src="assets/css/ST-logo"><br>
+
+</center>
 
 <html>
 <script type="text/javascript" src="assets/js/jquery.js" ></script>
@@ -18,6 +21,18 @@ $(document).ready(function(){
 			$("#circle-connect").removeClass("circle-clicked").addClass("circle");
 		}
 	});
+	$("#circle-suggestions").click(function(){
+		console.log($(".suggestions").css("display"));
+		if ($(".suggestions").css("display") === "none"){
+			$(".suggestions").slideDown();
+			$("#circle-suggestions").removeClass("circle").addClass("circle-clicked");
+		}
+		else{
+			$(".suggestions").slideUp();
+			$("#circle-suggestions").removeClass("circle-clicked").addClass("circle");
+		}
+	
+	});
 });
 
 </script>
@@ -32,10 +47,9 @@ $(document).ready(function(){
             <div class="connect">
               Find an anonymous/unique username pair to help you with language learning!
               <div class="form">
-                     <div class="item">Name</div>
-                     <div class="item2">Language or Country</div>
-                     <div class="item3">e-mail address</div>
-                     <div class="item4">Other preferences or comments</div>
+                     <div class="item">Send an email with your name, country of residence, preferred language, adn your email address. Please note any preferences.</div>
+                     <div class="eadd">slangsandthings@gmail.com</div>
+            </div>
 
               </div>
             </div>
@@ -46,7 +60,7 @@ $(document).ready(function(){
             </div>
             
 	</div>
-
+<br><br>
 
 <body/>
 

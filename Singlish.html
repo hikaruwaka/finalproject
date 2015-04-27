@@ -34,7 +34,7 @@ $(document).ready(function(){
 	    }
 	});
 
-$("#circle-slangs").click(function(){
+        $("#circle-slangs").click(function(){
 		console.log($(".slangs").css("display"));
 		if ($(".slangs").css("display") === "none"){
 		$(".slangs").slideDown();
@@ -47,7 +47,7 @@ $("#circle-slangs").click(function(){
 
 
 	});
-$("#circle-photos").click(function(){
+        $("#circle-photos").click(function(){
 		console.log($(".photos").css("display"));
 		if ($(".photos").css("display") === "none"){
 		$(".photos").slideDown();
@@ -60,7 +60,7 @@ $("#circle-photos").click(function(){
 
 
 	});
-$("#circle-links").click(function(){
+        $("#circle-links").click(function(){
 		console.log($(".links").css("display"));
 		if ($(".links").css("display") === "none"){
 		$(".links").slideDown();
@@ -70,7 +70,6 @@ $("#circle-links").click(function(){
 	    	$(".links").slideUp();
 			$("#circle-links").removeClass("circle-clicked").addClass("circle");
 	    }
-
 
 	});
 
